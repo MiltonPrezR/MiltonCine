@@ -576,7 +576,11 @@ footer .content {
 
 @media only screen and (max-width: 850px) {
     html {
-        font-size: 7px;
+        font-size: 13px;
+    }
+
+    .movie-item-des {
+        display: none;
     }
 
     .container {
