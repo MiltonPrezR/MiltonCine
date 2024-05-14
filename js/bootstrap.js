@@ -1472,7 +1472,8 @@
         }
 
         this.touchTimeout = setTimeout(() => this._maybeEnableCycle(), TOUCHEVENT_COMPAT_WAIT + this._config.interval);
-      };
+      };  
+      // numero de compilaciion de solucion 
 
       const swipeConfig = {
         leftCallback: () => this._slide(this._directionToOrder(DIRECTION_LEFT)),
